@@ -28,6 +28,10 @@ body {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px
 }
 
 a {
@@ -45,4 +49,50 @@ ul {
     gap: 15px;
     padding-right: 50px;
     /* flex-wrap: wrap; */
+}
+
+img {
+    height: 50px;
+    width: auto;
+}
+
+
+/* Sub Menu */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    display: inline-block;
+    /* Makes menu items horizontal */
+}
+
+ul li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+ul li ul {
+    display: none;
+    /* Hide submenu by default */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fb5407;
+    padding: 0;
+    min-width: 150px;
+}
+
+ul li ul li {
+    display: block;
+    /* Submenu items vertical */
+}
+
+ul li:hover ul {
+    display: block;
+    /* Show submenu on hover */
 }
