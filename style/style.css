@@ -230,7 +230,7 @@ ul li:hover ul {
     font-weight: 300;
     padding: 20px;
     text-align: center;
-    
+
 }
 
 .text-mission {
@@ -260,3 +260,45 @@ ul li:hover ul {
 }
 
 
+
+/* Section 4 */
+
+.section-4 {
+    background-color: white;
+    padding: 50px;
+}
+
+
+.section-4-bg {
+    background-color: #ce491a;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+
+.section-4-bg-text-1 {
+    color: white;
+    font-weight: bold;
+}
+
+.section-4-bg-text-2 {
+    color: #E5E7EB;
+}
+
+
+div .button-2 {
+    background-color: #ce491a;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    padding: 5px 20px 5px 20px;
+    /*Top - Right - Bottom - Left*/
+    cursor: pointer;
+    /* Change the Cursor Pointer*/
+    border: 2px solid white;
+}
