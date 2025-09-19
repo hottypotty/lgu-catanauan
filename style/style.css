@@ -9,7 +9,6 @@ body {
     display: flex;
     flex-direction: column;
 
-
 }
 
 /* HEADER */
@@ -96,3 +95,48 @@ ul li:hover ul {
     display: block;
     /* Show submenu on hover */
 }
+
+
+/* BODY */
+
+/* Section 1 */
+.section-1 {
+    background-color: #f46709;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.section-1-main-text {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.section-1-secondary-text {
+    color: #E5E7EB;
+    font-size: 13px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+
+
+}
+
+
+.card-main-image img {
+
+    width: 300px;
+    height: auto;
+    padding-bottom: 20px;
+    cursor: pointer;
+    
+
+}
+
+/* Background Photos */
