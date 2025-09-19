@@ -66,7 +66,8 @@ img {
 }
 
 
-/* Sub Menu */
+
+/* Sub Me*/
 ul {
     list-style: none;
     margin: 0;
@@ -76,7 +77,7 @@ ul {
 ul li {
     position: relative;
     display: inline-block;
-    /* Makes menu items horizontal */
+    z-index: 1;
 }
 
 ul li a {
@@ -87,26 +88,66 @@ ul li a {
 
 ul li ul {
     display: none;
-    /* Hide submenu by default */
     position: absolute;
     top: 100%;
     left: 0;
     background: #fb5407;
     padding: 0;
     min-width: 150px;
-    z-index: 999; /* High priority of Display */
+    z-index: 999;
 }
 
 ul li ul li {
     display: block;
-    /* Submenu items vertical */
 }
 
 ul li:hover ul {
     display: block;
-    /* Show submenu on hover */
 }
 
+/* Mobile Style */
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+    padding: 10px;
+    background: #fb5407;
+    color: #fff;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+    }
+
+    ul.menu {
+        display: none;
+        width: 100%;
+        background: #ff3d00;
+    }
+
+    #menu-toggle:checked + .menu-icon + ul.menu {
+        display: block;
+    }
+
+    ul li {
+        display: block;
+        border-bottom: 1px solid #ff3d00;
+    }
+
+    ul li ul {
+        position: static; /* Para nasa harap, hindi nawawala */
+    }
+
+    ul li:hover ul {
+        display: block; /* Pwede pa ring i-hover o i-tap */
+    }
+}
 
 
 
