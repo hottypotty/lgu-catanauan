@@ -68,6 +68,14 @@ img {
 
 
 /* Sub Me*/
+
+
+/* Hide default checkbox */
+#menu-toggle {
+    display: none;
+}
+
+
 ul {
     list-style: none;
     margin: 0;
