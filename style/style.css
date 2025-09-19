@@ -302,3 +302,36 @@ div .button-2 {
     /* Change the Cursor Pointer*/
     border: 2px solid white;
 }
+
+/* * {
+    border: red 1px solid;
+} */
+
+/* FOOTER */
+
+.main-footer {
+    background-color: #ff3d00;
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 25px;
+}
+
+.sub-footer {
+    background-color: #ff3d00;
+    /* padding: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.footer-text {
+    padding: 30px;
+    color: #E5E7EB;
+}
