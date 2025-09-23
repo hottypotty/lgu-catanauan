@@ -11,7 +11,9 @@ body {
 
 }
 
-/* HEADER */
+/****************************************** HEADER *****************************************/
+/****************************************** HEADER *****************************************/
+/****************************************** HEADER *****************************************/
 
 .header {
     background-color: #ff3d00;
@@ -19,10 +21,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-left: 50px;
-    /* justify-content: center; */
     flex-wrap: wrap;
 }
-
 
 .header-logo {
     color: #F9FAF8;
@@ -35,7 +35,6 @@ body {
 
 .header-link {
     display: flex;
-
 }
 
 .header-link ul {
@@ -57,7 +56,6 @@ ul {
     display: flex;
     gap: 5px;
     padding-right: 50px;
-    /* flex-wrap: wrap; */
 }
 
 img {
@@ -67,7 +65,7 @@ img {
 
 
 
-/* Sub Me*/
+/************************************* Sub Menu******************************************/
 
 
 /* Hide default checkbox */
@@ -113,7 +111,7 @@ ul li:hover ul {
     display: block;
 }
 
-/* Mobile Style */
+/************************************* Mobile Style ********************************************/
 #menu-toggle {
     display: none;
 }
@@ -127,7 +125,7 @@ ul li:hover ul {
     color: #fff;
 }
 
-/* Mobile view */
+/*************************************** Mobile view ******************************************/
 @media (max-width: 768px) {
     .menu-icon {
         display: block;
@@ -159,9 +157,14 @@ ul li:hover ul {
 
 
 
-/* BODY */
 
-/* Section 1 */
+
+/****************************************** BODY *****************************************/
+/****************************************** BODY *****************************************/
+/****************************************** BODY *****************************************/
+
+
+/****************************************** Section 1 *************************************/
 .section-1 {
     background-color: #f46709;
     padding-top: 40px;
@@ -186,25 +189,20 @@ ul li:hover ul {
     font-size: 13px;
     padding-bottom: 10px;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
-
-
 }
 
 
 .card-main-image img {
-
     width: 300px;
     height: auto;
     padding-bottom: 20px;
     cursor: pointer;
-
-
 }
 
 
 
 
-/* Section 2 */
+/****************************************** Section 2 *************************************/
 
 .section-2 {
     display: flex;
@@ -228,7 +226,6 @@ ul li:hover ul {
     gap: 25px;
     flex-wrap: wrap;
     /*Move to Next Line,if the screen is adjusted ,Flex-wrap */
-
 }
 
 
@@ -246,9 +243,6 @@ ul li:hover ul {
     padding: 5px;
     text-align: center;
     cursor: pointer;
-
-
-
 }
 
 .card img {
@@ -264,7 +258,7 @@ ul li:hover ul {
 
 
 
-/* Section 3 */
+/****************************************** Section 3 *************************************/
 
 .section-3 {
     background-color: #e85420;
@@ -311,7 +305,7 @@ ul li:hover ul {
 
 
 
-/* Section 4 */
+/****************************************** Section 4 *************************************/
 
 .section-4 {
     background-color: white;
@@ -347,21 +341,18 @@ div .button-2 {
     color: white;
     margin: 10px;
     padding: 5px 20px 5px 20px;
-    /*Top - Right - Bottom - Left*/
     cursor: pointer;
-    /* Change the Cursor Pointer*/
     border: 2px solid white;
 }
 
-/* * {
-    border: red 1px solid;
-} */
 
-/* FOOTER */
+
+/****************************************** FOOTER *****************************************/
+/****************************************** FOOTER *****************************************/
+/****************************************** FOOTER *****************************************/
 
 .main-footer {
     background-color: #ff3d00;
-    /* padding: 50px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -372,7 +363,6 @@ div .button-2 {
 
 .sub-footer {
     background-color: #ff3d00;
-    /* padding: 50px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
